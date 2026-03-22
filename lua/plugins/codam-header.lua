@@ -4,6 +4,7 @@ return {
 	cmd = { "Stdheader" },
 	ft = { "c", "cpp", "python" },
 	opts = {
-		domain = "student.codam.nl",
+	      username = "ivan-der",
+	      email = "ivan-der@student.codam.nl",
 	},
 }
