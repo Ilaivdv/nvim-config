@@ -9,10 +9,10 @@ map("i", "jj", "<Esc>", opts)
 map("n", "<C-a>", "gg<S-v>G")
 
 -- Nav windows
-map("n", "<C-h>", "<C-w>h", opts)
-map("n", "<C-l>", "<C-w>l", opts)
-map("n", "<C-k>", "<C-w>k", opts)
-map("n", "<C-j>", "<C-w>j", opts)
+map("n", "<leader>h", "<C-w>h", opts)
+map("n", "<leader>l", "<C-w>l", opts)
+map("n", "<leader>k", "<C-w>k", opts)
+map("n", "<leader>j", "<C-w>j", opts)
 map("n", "<leader>v", ":vsplit<CR>", opts)
 map("n", "<leader>x", ":close<CR>", opts)
 
