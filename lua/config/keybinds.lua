@@ -19,6 +19,6 @@ map("n", "<leader>x", ":close<CR>", opts)
 
 -- Nav terminal
 map("n", "<leader>ft", ":ToggleTerm direction=float<CR>", opts)
-map("n", "<leader>t", ":ToggleTerm<CR>", opts)
+map("n", "<leader>t", ":ToggleTerm direction=horizontal<CR>", opts)
 map("t", "<C-k>", "<C-\\><C-N><C-w>k", opts)
 map("t", "<C-x>", vim.cmd.ToggleTerm)
