@@ -1,10 +1,14 @@
 return {
   {
-    "tiagovla/tokyodark.nvim",
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme "tokyodark"
-    end
+       'sainnhe/sonokai',
+      lazy = false,
+      priority = 1000,
+      config = function()
+        -- Optionally configure and load the colorscheme
+        -- directly inside the plugin declaration.
+        -- vim.g.sonokai_enable_italic = true
+        vim.cmd.colorscheme('sonokai')
+      end
   },
     {
     "nvim-lualine/lualine.nvim",
@@ -12,7 +16,7 @@ return {
           "nvim-tree/nvim-web-devicons", -- imports icon dependency
         },
         opts = {
-          theme = "tokyodark", -- sets the lualine theme to tokyodark
+          theme = "everforest", -- sets the lualine theme to everforest
       }
   },
 }

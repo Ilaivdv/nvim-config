@@ -3,7 +3,7 @@ vim.g.mapleader = ' ' -- this maps the leader key to the spacebar
 
 map('n', '<leader>cd', vim.cmd.Ex) -- "n" here applies the mapping in normal mode, "<leader>cd" is the key combination and "vim.cmd.Ex" open the file explorer
 -- Quick esc
-map("i", "jj", "<Esc>", opts)
+map("i", "<C-j>", "<Esc>", opts)
 
 -- Select all
 map("n", "<C-a>", "gg<S-v>G")
